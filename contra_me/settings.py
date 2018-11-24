@@ -60,6 +60,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
+            
             PROJECT_DIR.parent.child('templates'),
         ],
         'APP_DIRS': True,
